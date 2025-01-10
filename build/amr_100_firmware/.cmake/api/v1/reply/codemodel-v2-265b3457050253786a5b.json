@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6f8a90a786dd43aa9ae8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "amr_100_firmware",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_amr_100_firmware_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_amr_100_firmware_egg-c665b2c53551831685d6.json",
+					"name" : "ament_cmake_python_build_amr_100_firmware_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_amr_100_firmware::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_amr_100_firmware-eafddb2f05bd8c8f2719.json",
+					"name" : "ament_cmake_python_copy_amr_100_firmware",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "amr_100_firmware_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-amr_100_firmware_uninstall-0579dae543ad24839208.json",
+					"name" : "amr_100_firmware_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6d47f549b81f79443978.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubuntu/telenex_ws/build/amr_100_firmware",
+		"source" : "/home/ubuntu/telenex_ws/src/amr_100_firmware"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
