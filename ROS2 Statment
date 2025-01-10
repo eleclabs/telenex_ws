@@ -1,0 +1,22 @@
+Token Github.com
+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
+
+
+ros2 run amr_100_firmware serial_transmitter.py --ros-arg -p port:=/dev/ttyUSB0
+
+ros2 node list
+ros2 topic list
+ros2 topic echo /...
+ros2 topic info /serial_transmitter
+ros2 topic pub /serial_transmitter std_msgs/msg/String "data: 1"
+
+---------------------------------
+ros2 run amr_100_firmware serial_receiver.py --ros-args -p port:=/dev/ttyUSB0
+ros2 topic list
+ros2 topic echo /serial_receiver
+
+
+
+pyserial-miniterm -e /dev/ttyUSB0 57600
+e
+o 90 90
