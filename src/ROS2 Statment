@@ -1,6 +1,7 @@
 Token Github.com
 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
 
+ros2 pkg create --build-type ament_cmake amr_100_firmware
 
 ros2 run amr_100_firmware serial_transmitter.py --ros-arg -p port:=/dev/ttyUSB0
 
